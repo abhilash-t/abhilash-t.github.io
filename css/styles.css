@@ -166,6 +166,14 @@ footer {
     background-color: transparent;
 }
 
+.navbar-brand
+{
+    position: relative;
+    width: 300px;
+    left: 15px;
+    max-height: 80px; /* height of the navbar */
+}
+
 
 @media(min-width:768px) {
     .navbar-default {
