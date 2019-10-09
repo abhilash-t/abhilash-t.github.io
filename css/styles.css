@@ -16,7 +16,7 @@ body {
 }
 
 body {
-    font-family: 'Roboto Slab','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Roboto Slab','Helvetica Neue',Arial;
     background-color: #e0e0e0;
     color: white;
     webkit-tap-highlight-color: #222;
@@ -303,9 +303,7 @@ footer {
 }
 
 #parallaximg {
-	
-	padding: 0;
-	height: 70%;
+
 	background-size: 100%;
 	background-position: cover;
 	background-image: url(../assets/baby.jpg);
@@ -319,8 +317,6 @@ footer {
 
 #parallaximg2 {
 	
-	padding: 0;
-	opacity: 80%;
 	background-size: 100%;
 	background-position: cover;
 	background-image: url(../assets/couple.jpg);
@@ -334,11 +330,22 @@ footer {
 
 #parallaximg3 {
 	
-	padding: 0;
-	opacity: 80%;
 	background-size: 100%;
 	background-position: cover;
 	background-image: url(../assets/photos/17.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	z-index: 1; 
+} 
+
+#parallaximg4 {
+	
+	background-size: 100%;
+	background-position: cover;
+	background-image: url(../assets/photos/11.jpg);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	-webkit-background-size: cover;
