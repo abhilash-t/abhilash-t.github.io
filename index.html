@@ -282,7 +282,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 text-center">
             <div class="mt-0">
-              <p class="text-muted mb-0 wow fadeInDown" data-wow-delay=".3s">We're glad you're here! Give us a call if we're your kind of people. Put in your details and we'll get back to you.</p>
+              <p class="text-muted mb-0 wow fadeInDown" data-wow-delay=".3s">We're glad you're here! Give us a call if we're your kind of people. Or just put in your details and we'll get back to you.</p>
             </div>
             <div class="row my-4">
                 <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
@@ -298,7 +298,28 @@
           </div>
           <div class="col-lg-6 col-md-6 text-center">
               <div class="mt-0">
-                  <p class="text-muted mb-0 wow fadeInDown" data-wow-delay=".3s">Contact us: </br> Name: ____________________ </br>Phone: ____________________ </br>Event: ____________________</br>Email: ____________________</p>
+                  <!-- <p class="text-muted mb-0 wow fadeInDown" data-wow-delay=".3s">Contact us: </br> Name: ____________________ </br>Phone: ____________________ </br>Event: ____________________</br>Email: ____________________</p> -->
+                  <form class="contact-form row">
+                    <div class="form-field col x-50">
+                       <input id="name" class="input-text js-input" type="text" required>
+                       <label class="label" for="name">Name</label>
+                    </div>
+                    <div class="form-field col x-50">
+                       <input id="email" class="input-text js-input" type="email" required>
+                       <label class="label" for="email">E-mail</label>
+                    </div>
+                    <div class="form-field col x-50">
+                      <input id="phone" class="input-text js-input" type="text" required>
+                      <label class="label" for="phone">Event?</label>
+                   </div>
+                    <div class="form-field col x-50">
+                       <input id="message" class="input-text js-input" type="text" required>
+                       <label class="label" for="message">Tell us more!</label>
+                    </div>
+                    <div class="form-field col x-50 align-center">
+                       <input class="submit-btn" type="submit" value="Submit">
+                    </div>
+                 </form>
                 </div>
           </div>
         </div>
@@ -308,7 +329,7 @@
   <footer class="bg-light py-5">
     <div class="container">
       <div class="small text-center text-muted">Copyright &copy; 2020 Happening Pixels</div>
-    <div class="small text-center text-muted"><i class="fas fa-instagram fa-2x mb-3 text-muted"></i><i class="fas fa-facebook fa-2x mb-3 text-muted"></i></div>
+    <div class="small text-center text-muted"><i class="fab fa-instagram fa-2x mb-3 text-muted"></i><i class="fab fa-facebook fa-2x mb-3 text-muted"></i></div>
     </div>
   </footer>
 

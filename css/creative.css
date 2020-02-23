@@ -542,6 +542,20 @@ mark,
   color: #6c757d;
 }
 
+.submit-btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
 code {
   font-size: 87.5%;
   color: #e83e8c;
