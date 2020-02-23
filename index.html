@@ -1,371 +1,332 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Happening Pixels</title>
-    <meta name="description" content="Happening Pixels website" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Codeply">
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/animate.min.css" />
-    <link rel="stylesheet" href="./css/ionicons.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+<html lang="en">
 
-  </head>
-  <body>
-    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#first"><img alt="Brand" src="assets/navlogo.png"  class="img-responsive" /></a>
-            </div>
-            <div class="navbar-collapse collapse" id="bs-navbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="films.html">Films</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="photography.html">Photography</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#bḻog">Blog</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#book">Book Us</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="faq.html">Questions?</a>
-                    </li>
-                </ul>
-            <!---  <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">About</a>
-                    </li>
-                </ul>
-            -->
-            </div>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Happening Pixels</title>
+
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+  <link href="css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/navlogo.png" alt="Happening Pixels" width="200"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#faq">Questions?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#book">Book Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold"><img src="img/navlogo.png" alt="Happening Pixels" width="500"></h1>
+          <hr class="divider my-4">
         </div>
-    </nav>
-    <header id="first">
-        <div class="header-content">
-            <div class="inner">
-                <h1 class="cursive">Welcome!</h1>
-                <h4>Capturing moments.</h4>
-                <hr>
-              <!--  <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a> -->
-            </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">Capturing moments.</p>
+          <!--<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>-->
         </div>
-        <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="assets/vid/bg.jpg" id="video-background">
-            <source src="assets/vid/bgvid.mp4" type="video/mp4">Your browser does not support the video tag. We suggest you upgrade your browser.
-        </video>
-    </header>
-    <section id="photo-collect" class="no-padding bg-primary">
-        <div class="container-fluid">
-            <div class="inner">
-                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
-                    <h1 class="cursive wow fadeInLeft">From the Blog</h1>
-                </div>
-                <div class="wrapper">
-                    <div class="row">
-                        <div class="col-md-4">
-                                <div class="thumbnail">
-                                        <a data-fancybox="gallery" href="assets/photos/01.jpg"><img class="gallery-thumb" src="assets/thumbs/01.jpg"></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                            <div class="thumbnail">
-                    <a data-fancybox="gallery" href="assets/photos/02.jpg"><img class="gallery-thumb" src="assets/thumbs/02.jpg"></a>
-                            </div>
-                    </div>
-                    <div class="col-md-4">
-                            <div class="thumbnail">
-                    <a data-fancybox="gallery" href="assets/photos/05.jpg"><img class="gallery-thumb" src="assets/thumbs/05.jpg"></a>
-                    </div>
-                 </div>
-            </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                                <div class="thumbnail">
-                    <a data-fancybox="gallery" href="assets/photos/06.jpg"><img class="gallery-thumb" src="assets/thumbs/06.jpg"></a>
-                </div>
-            </div>
-                    <div class="col-md-4">
-                            <div class="thumbnail">
-                    <a data-fancybox="gallery" href="assets/photos/11.jpg"><img class="gallery-thumb" src="assets/thumbs/11.jpg"></a>
-                            </div>
-                    </div>
-                    <div class="col-md-4">
-                            <div class="thumbnail">
-                    <a data-fancybox="gallery" href="assets/photos/16.jpg"><img class="gallery-thumb" src="assets/thumbs/16.jpg"></a>
-                    </div>
-                 </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="page-section bg-about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 text-left">
+          <h2 class="text-primary mt-0">Unforgettable moments</br>aren't supposed to be</br>forgotten. </h2>
+          <!--<hr class="divider light my-4">-->
+          <p class="text-primary-50 mb-4 my-4">We create memories by creating entirely unique films.</p>
+          <p class="text-primary-50 mb-4">Go ahead and check out our works.</p>
+         <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
         </div>
-            </div>
-        </div>
-    </section>
-    <section id="parallaximg" class="bg-primary">
-        <div class="container" id="imgview">
-         <!-- <div class="row" >
-            <div class="col-lg-12  text-center wow fadeIn" data-wow-delay=".01s" >
-              <h2 class="text-primary cursive" >Nous écrire</h2>
-              <hr class="primary">
-            </div>
-            <div class="col-lg-12  text-center wow fadeIn" data-wow-delay=".01s">
-              <h2 class="cursive">Association Vino Music</h2>
-              <p>13 place de la République</p>
-              <p>49500 Segré</p>
-              <p>Tél: 0241941962</p>
-              <p>Courriel: vinomusic[at]yahoo.com</p> -->
-            </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <h2 class="text-center mt-0">Hey, we are loved!</h2>
+      <hr class="divider my-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <h3 class="h4 mb-2">Mr. Helsou Asbu</h3>
+            <h5>labore et dolore</h5>
+            <i class="fas fa-3x fa-quote-left text-primary mb-4"></i>
+            <p class="text-muted mb-0 wow fadeIn" data-wow-delay=".3s">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!"</p>
           </div>
         </div>
-      </section>
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-0 col-md-8 col-md-offset-2">
-                    <h2 class="margin-top-0 text-primary cursive">Who are we?</h2>
-                    <br>
-                    <p class="text-faded">
-                    At <span>Happening Pixels</span>, we aim for endless vantage points of capturing memorable images.
-                    </p>
-                    <p class="text-faded">We relish the opportunity to capture scenes full of joy, love and even sadness – shared moments, intimate moments, reflective
-                    moments. We love the timeless elegance of black and white images, the classic look of film and consistent effort in our work.
-                    What could be more important than giving your family and friends beautiful images that will provide joy for years, and hopefully, generations to come?
-                    </p>
-                    <p class="text-faded">
-                    Happening Pixels is a team of photographers, cinematographers, DOP, creative designers, content writer, marketing team led
-                    by Harshitha Venu.
-                    </p>
-                </div>
-            </div>
+        <div class="col-lg-4 col-md-6 text-center">
+            <div class="mt-5">
+                <h3 class="h4 mb-2">Mrs. Eroskua Tyk</h3>
+                <h5>labore et dolore</h5>
+                <i class="fas fa-3x fa-quote-left text-primary mb-4"></i>
+                <p class="text-muted mb-0 wow fadeIn" data-wow-delay=".5s">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!"</p>
+              </div>
         </div>
-    </section>
-    <section id="parallaximg2" class="bg-primary">
-        <div class="container" id="imgview2">
-         <!-- <div class="row" >
-            <div class="col-lg-12  text-center wow fadeIn" data-wow-delay=".01s" >
-              <h2 class="text-primary cursive" >Nous écrire</h2>
-              <hr class="primary">
+        <div class="col-lg-4 col-md-6 text-center">
+            <div class="mt-5">
+                <h3 class="h4 mb-2">Mr. Orastua Wei</h3>
+                <h5>labore et dolore</h5>
+                <i class="fas fa-3x fa-quote-left text-primary mb-4"></i>
+                <p class="text-muted mb-0 wow fadeIn" data-wow-delay=".7s">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!"</p>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/01.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/01t.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Photo
+              </div>
+              <div class="project-name">
+                Photo Description
+              </div>
             </div>
-            <div class="col-lg-12  text-center wow fadeIn" data-wow-delay=".01s">
-              <h2 class="cursive">Association Vino Music</h2>
-              <p>13 place de la République</p>
-              <p>49500 Segré</p>
-              <p>Tél: 0241941962</p>
-              <p>Courriel: vinomusic[at]yahoo.com</p> -->
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/05.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/05t.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Photo
+              </div>
+              <div class="project-name">
+                Photo Description
+              </div>
             </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/06.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/06t.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Photo
+              </div>
+              <div class="project-name">
+                Photo Description
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/12.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/12t.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Photo
+              </div>
+              <div class="project-name">
+                Photo Description
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/16.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/16t.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Photo
+              </div>
+              <div class="project-name">
+                Photo Description
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/17.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/17t.jpg" alt="">
+            <div class="portfolio-box-caption p-3">
+              <div class="project-category text-white-50">
+                Photo
+              </div>
+              <div class="project-name">
+                Photo Description
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Select Section-->
+  <section class="page-section" id="portselect">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-md-6 text-center">
+                    <div class="card">
+                      <div class="card-body">
+                          <img class="img-fluid" src="img/portfolio/thumbnails/02.jpg" alt="">
+                        <h3 class="card-title my-4">Wedding Stories</h3>
+                        <p class="card-text">Capture the most beautiful moments of your life, retell the story of your wedding day.</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-lg-4 col-md-6 text-center">
+                  <div class="card">
+                    <div class="card-body">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/05t.jpg" alt="">
+                      <h3 class="card-title my-4">Baby and Toddler Sessions</h3>
+                      <p class="card-text">We capture the little one's sleepy eyes, the sweetest smiles.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="card">
+                  <div class="card-body">
+                      <img class="img-fluid" src="img/portfolio/thumbnails/05t.jpg" alt="">
+                    <h3 class="card-title my-4">Maternity Sessions</h3>
+                    <p class="card-text">Capture memories of what your family looked like right before the baby arrives.</p>
+                  </div>
+                </div>
+          </div>
+          </div>
+      </div>
+
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="page-section bg-dark text-white">
+    <div class="container text-center">
+      <h2 class="mb-4"> At <span>Happening Pixels</span>, we aim for endless vantage points of capturing memorable images.</h2>
+      <p class="text-faded">We relish the opportunity to capture scenes full of joy, love and even sadness – shared moments, intimate moments, reflective
+          moments. We love the timeless elegance of black and white images, the classic look of film and consistent effort in our work.
+          What could be more important than giving your family and friends beautiful images that will provide joy for years, and hopefully, generations to come?
+      </p>
+      <a class="custombutton rectbtn" href="#about">Know us!</a>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="page-section" id="faq">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+          <h2 class="mt-0 text-white">GOT ANY QUESTIONS</br> ABOUT HOW THINGS WORK?</h2>
+          <a class="custombutton button1" href="#about">read the FAQ</a>
+          <p class="text-muted mb-5 my-4">Give us a call or send us an email and </br>we will get back to you as soon as possible!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Book Section -->
+    <section class="page-section" id="book">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 text-center">
+            <div class="mt-0">
+              <p class="text-muted mb-0 wow fadeInDown" data-wow-delay=".3s">We're glad you're here! Give us a call if we're your kind of people. Put in your details and we'll get back to you.</p>
+            </div>
+            <div class="row my-4">
+                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                  <i class="fas fa-phone fa-1x mb-3 text-muted"></i>
+                  <div>+91-9632165659</div>
+                </div>
+                <div class="col-lg-4 mr-auto text-center">
+                  <i class="fas fa-envelope fa-1x mb-3 text-muted"></i>
+                  <!-- Make sure to change the email address in anchor text AND the link below! -->
+                  <a class="d-block" href="mailto:info@happeningpixels.com">info@happeningpixels.com</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 text-center">
+              <div class="mt-0">
+                  <p class="text-muted mb-0 wow fadeInDown" data-wow-delay=".3s">Contact us: </br> Name: ____________________ </br>Phone: ____________________ </br>Event: ____________________</br>Email: ____________________</p>
+                </div>
           </div>
         </div>
-      </section>
-    <section class="bg-primary" id="services">
-            <div class="container">
-                <div class="row">
-                        <div class="col-lg-12 text-center">
-                                <h2 class="margin-top-0 text-primary cursive">Our Services</h2>
-                                <hr class="primary">
-         <!--                       <p>Happening Pixels is 'full service' studio.</p>
-                                <p>     What does this mean? Well let's start with what we're not. We don't take few photos or capture some footage, burn it to a disc
-                                     and post it out to you, job done - one of your guests could do that!</p>
-                                    <p>  We have extensive experience to visualize meticulously plan, organize and execute entire event successfully. A fabulous
-                                                            collection of albums and USB drives, all presented in gorgeous packaging. (hyperlink-hp packaging service).</p> -->
-                                    </div>
-                                </div>
-                                    <div class="row">
-                            <div class="grid">
-                                <figure class="effect-apollo">
-                                    <img src="assets/baby2.jpg" alt="baby"/>
-                                    <figcaption>
-                                        <h2> <span>FILMS</span></h2>
-                                        <p>We're great at filming stuff.</p>
-                                        <a href="films.html">View more</a>
-                                    </figcaption>			
-                                </figure>
-                                <figure class="effect-apollo">
-                                    <img src="assets/couple2.jpg" alt="couple"/>
-                                    <figcaption>
-                                        <h2> <span>PHOTOGRAPHY</span></h2>
-                                        <p>Great clicks as promised.</p>
-                                        <a href="photography.html">View more</a>
-                                    </figcaption>			
-                                </figure>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <section id="review">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="margin-top-0 text-primary cursive">Hey, we are loved!</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-                        
-                        <h3>Mr. Person 1</h3>
-                        <h5>labore et dolore</h5>
-                        <i class="icon-md ion-quote"></i>
-                        <p class="text-muted wow fadeIn" data-wow-delay=".3s">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-        
-                        <h3>Mr. Person 2</h3>
-                        <h5>labore et dolore</h5>
-                        <i class="icon-md ion-quote"></i>
-                        <p class="text-muted wow fadeIn" data-wow-delay=".5s">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-                        
-                        <h3>Mrs. Person 3</h3>
-                        <h5>labore et dolore</h5>
-                        <i class="icon-md ion-quote"></i>
-                        <p class="text-muted wow fadeIn" data-wow-delay=".7s">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </section>
-      <section id="parallaximg3" class="bg-primary">
-        <div class="container" id="imgview3">
-         <!-- <div class="row" >
-            <div class="col-lg-12  text-center wow fadeIn" data-wow-delay=".01s" >
-              <h2 class="text-primary cursive" >Nous écrire</h2>
-              <hr class="primary">
-            </div>
-            <div class="col-lg-12  text-center wow fadeIn" data-wow-delay=".01s">
-              <h2 class="cursive">Association Vino Music</h2>
-              <p>13 place de la République</p>
-              <p>49500 Segré</p>
-              <p>Tél: 0241941962</p>
-              <p>Courriel: vinomusic[at]yahoo.com</p> -->
-            </div>
-          </div>
-        </div>
-      </section>
-    <section id="book">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="text-primary cursive margin-top-0 wow fadeIn">Get in Touch</h2>
-                        <hr class="primary">
-                        <p> All our packages are custom-built, and are firmly rooted in the way you’ve planned your event.  The sky is the limit – and if
-                                you’ve dreamt it – we’ll make it happen.</p>
-                    </div>
-                    <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <form class="contact-form row">
-                            <div class="col-md-4">
-                                <label></label>
-                                <input type="text" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="col-md-4">
-                                <label></label>
-                                <input type="text" class="form-control" placeholder="Email">
-                            </div>
-                            <div class="col-md-4">
-                                <label></label>
-                                <input type="text" class="form-control" placeholder="Phone">
-                            </div>
-                            <div class="col-md-4">
-                                    <label></label>
-                                    <input type="text" class="form-control" placeholder="City">
-                            </div>
-                            <div class="col-md-4">
-                                    <label></label>
-                                    <input type="text" class="form-control" placeholder="Service/event?">
-                            </div>
-                            <div class="col-md-4">
-                                    <label></label>
-                                    <input type="text" class="form-control" placeholder="How do you hear about us?">
-                            </div>
-                            <div class="col-md-12">
-                                <label></label>
-                                <textarea class="form-control" rows="9" placeholder="Your message here..."></textarea>
-                            </div>
-                            <div class="col-md-4 col-md-offset-4">
-                                <label></label>
-                                <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <footer id="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-6 col-sm-3 column">
-                    <h4>Get in touch!</h4>
-                    <ul class="list-unstyled">
-                        <li>Mail: info@happeningpixels.com</li>
-                        <li>Phone: +91 9632165659</li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-3 column">
-                    <h4>Happening Pixels</h4>
-                    <ul class="list-unstyled">
-                            <li>#553, 9th Block</li>
-                            <li>Nagarbhavi 2nd Stage</li>
-                            <li>Bangalore - 72</li>
-                        </ul>
-                </div>
-                <div class="col-xs-12 col-sm-3 column">
-                    <h4>Stay Posted</h4>
-                    <form>
-                        <div class="form-group">
-                          <input type="text" class="form-control" title="No spam, we promise!" placeholder="Tell us your email">
-                        </div>
-                        <div class="form-group">
-                          <button class="btn btn-primary" data-toggle="modal" data-target="#alertModal" type="button">Subscribe for updates</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-xs-12 col-sm-3 text-right">
-                    <h4>Follow us</h4>
-                    <ul class="list-inline">
-                     <li><a rel="nofollow" href="mailto:info@happeningpixels.com" title="Mail"><i class="icon-lg ion-ios-email-outline"></i></a>&nbsp;</li>
-                      <li><a rel="nofollow" href="" title="Facebook"><i class="icon-lg ion-social-facebook-outline"></i></a>&nbsp;</li>
-                      <li><a rel="nofollow" href="" title="Instagram"><i class="icon-lg ion-social-instagram-outline"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <br/>
-            <span class="pull-right text-muted small"><a href="http://www.happeningpixels.com">Happening Pixels</a> © 2019 Company</span>
-        </div>
-    </footer>
-    <!--scripts loaded here -->
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/jquery.easing.min.js"></script>
-    <script src="./js/wow.js"></script>
-    <script src="./js/scripts.js"></script>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <script src="./js/jquery.fancybox.min.js"></script>
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted">Copyright &copy; 2020 Happening Pixels</div>
+    <div class="small text-center text-muted"><i class="fas fa-instagram fa-2x mb-3 text-muted"></i><i class="fas fa-facebook fa-2x mb-3 text-muted"></i></div>
+    </div>
+  </footer>
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  </body>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/wow.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+  <script>
+      new WOW().init();
+  </script>
+
+</body>
+
 </html>
