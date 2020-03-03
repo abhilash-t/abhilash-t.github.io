@@ -37,8 +37,16 @@ h1 {
 }
 
 .bg-about{
-  height: 500px;
-  background-position:right;
+  background-position: center;
+  width: auto;
+  margin-bottom:20px;
+}
+
+.about-us h1 {
+  margin-top:0;
+  font-size: 20px;
+  width: 300px;
+  color: white;
 }
 
 .about-us h1 {
@@ -48,6 +56,13 @@ h1 {
 .about-us .content{
   width:300px;
 }
+
+
+.bg-about p{
+  font-size: 18px;
+  width: 300px;
+  color: white;
+  }
 
 .about-us hr,.portfolio .portfolio-margin hr, .contact hr {
   width:106px;
@@ -165,22 +180,23 @@ h1 {
 }
 
 .bg-about{
-  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  margin-bottom:20px;
 }
 
-.bg-about .column-one{
-  width:500px;
-  height:350px;
+.about-us h1 {
+  margin-top:0;
+  font-size: 20px;
+  width: 300px;
+  color: white;
 }
 
-.bg-about h1{
-font-size: 20px;
-color: #333333;
-}
 
 .bg-about p{
   font-size: 18px;
-  color: #333333;
+  width: 300px;
+  color: white;
   }
 
 
@@ -288,6 +304,25 @@ textarea{
 .menu-content{
   width:700px;
 }
+
+.bg-about{
+  background-position: center;
+  width: auto;
+  margin-bottom:20px;
+}
+
+.about-us h1 {
+  margin-top:0;
+  width: 700px;
+  color: white;
+}
+
+
+.bg-about p{
+  color: white;
+  width: 700px;
+  }
+
 
 .about-us .content{
   width:700px;
