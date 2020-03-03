@@ -1,9 +1,5 @@
-/* Thomsoon.com - OnePage CSS Responsive
--- version 1.0
--- Copyright (c) 2014 Thomsoon.com
--- licensed under the MIT
---
--- http://www.thomsoon.com/
+/* 
+RISHI LANDSCAPES
 --
 */
 
@@ -93,6 +89,25 @@ h1 {
 .partners .logo img {
   width:80px;
   padding-bottom:20px;
+}
+.more-about{
+  margin-top: 0;
+  width: auto;
+  margin-bottom: 100px;
+}
+
+.more-about .content {
+  width: 300px;
+}
+
+.more-about .content h2{
+  font-size: 18px;
+
+}
+
+.more-about .content p{
+  font-size: 14px;
+
 }
 
 .contact, .contact .content, .contact .content .form{
@@ -239,6 +254,27 @@ h1 {
   padding-bottom:20px;
 }
 
+.more-about{
+  margin-top: 0;
+  width: auto;
+  margin-bottom: 100px;
+}
+
+.more-about .content {
+  width: 400px;
+}
+
+.more-about .content h2{
+  font-size: 20px;
+
+}
+
+.more-about .content p{
+  font-size: 16px;
+
+}
+
+
 .contact, .contact .content, .contact .content .form{
   width:300px;
 }
@@ -358,6 +394,26 @@ textarea{
 
 .partners .logo {
   width:700px;
+}
+
+.more-about{
+  margin-top: 0;
+  width: auto;
+  margin-bottom: 100px;
+}
+
+.more-about .content {
+  width: 700px;
+}
+
+.more-about .content h2{
+  font-size: 24px;
+
+}
+
+.more-about .content p{
+  font-size: 20px;
+
 }
 
 .contact{ 
