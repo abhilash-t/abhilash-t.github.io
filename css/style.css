@@ -179,7 +179,7 @@ img {
   font-weight: 700;
   position: relative;
   text-transform: uppercase;
-  padding: 1.2rem 2.7rem;
+  padding: 0.8rem 2rem;
   border: 0.1rem solid transparent;
   transition: all 0.2s ease-in-out;
   letter-spacing: .5px;
