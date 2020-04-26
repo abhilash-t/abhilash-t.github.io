@@ -546,7 +546,7 @@ PAGE BANNER
 
 .navbar {
   position: relative;
-  padding: 1rem 1rem;
+  padding: 0.3rem 0.6rem;
 }
 
 .navbar:before {
