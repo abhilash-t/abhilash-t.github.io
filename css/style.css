@@ -316,7 +316,7 @@ a:hover, a:focus {
 }
 
 .logo{
-  width: 300px;
+  width: 350px;
 }
 .top-info-block {
   margin-right: 30px;
@@ -329,7 +329,7 @@ a:hover, a:focus {
 .icon-block {
   margin-right: 20px;
   color: #568EA3;
-  font-size: 40px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 400;
 }
