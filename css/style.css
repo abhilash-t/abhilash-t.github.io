@@ -318,6 +318,11 @@ a:hover, a:focus {
 .logo{
   width: 200px;
 }
+
+.logo-contact{
+  width: 100px;
+}
+
 .top-info-block {
   margin-top: 65px;
   margin-right: 30px;
