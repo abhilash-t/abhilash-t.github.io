@@ -127,6 +127,9 @@ h6 {
 /*--------------------
 Common Styles
 -----------------*/
+
+
+
 .section-heading {
   margin-bottom: 80px;
 }
@@ -151,6 +154,9 @@ img {
   .section {
     padding: 7.5rem 0;
   }
+
+  #content-desktop {display: block;}
+  #content-mobile {display: none;}
 }
 
 .section-top {
@@ -1431,6 +1437,8 @@ CONTACT PAGE
     MEDIUM LAYOUT: 1280px
 -----------------------------------*/
 @media (max-width: 1200px) {
+  #content-desktop {display: block;}
+  #content-mobile {display: none;}
   .dropdown-item {
     padding-top: .75rem;
     padding-bottom: .75rem;
@@ -1574,9 +1582,15 @@ CONTACT PAGE
 }
 
 /*----------------------------------
-    WIDE MOBILE LAYOUT: 7680px
+    WIDE MOBILE LAYOUT: 768px
 -----------------------------------*/
 @media (max-width: 768px) {
+
+  #content-desktop {display: none;}
+  #content-mobile {
+  display: block;
+  padding-top: 10px;}
+
   .display-4 {
     font-size: 2.5rem;
   }
@@ -1822,8 +1836,11 @@ CONTACT PAGE
   }
 }
 
+}
+
 /* Custom, iPhone Retina */
 @media (max-width: 480px) {
+
   .bg-light {
     background: transparent !important;
   }
