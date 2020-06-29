@@ -1487,6 +1487,7 @@ CONTACT PAGE
     TABLET LAYOUT: 768px
 ------------------------------------*/
 @media (max-width: 992px) {
+  #content-mobile {display: block;}
   .section-title {
     font-size: 30px;
   }
