@@ -1348,13 +1348,13 @@ CONTACT PAGE
 }
 
 #footer {
-  background: url("../images/bg/10.jpg");
+  background: url("../images/bg/homebg.jpg");
   background-size: cover;
 }
 
 .footer-overlay {
   background: #111;
-  opacity: .94;
+  opacity: .97;
 }
 
 .footer-widget p {
